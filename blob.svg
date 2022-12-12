@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 835 422" style="enable-background:new 0 0 835 422;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1.4916" y1="126.5348" x2="820.4969" y2="293.7264">
+	<stop  offset="0" style="stop-color:#85CDEA"/>
+	<stop  offset="3.910000e-02" style="stop-color:#82B0D5"/>
+	<stop  offset="0.1154" style="stop-color:#7D7EB0"/>
+	<stop  offset="0.1821" style="stop-color:#7A5995"/>
+	<stop  offset="0.236" style="stop-color:#784284"/>
+	<stop  offset="0.2701" style="stop-color:#773A7E"/>
+	<stop  offset="0.369" style="stop-color:#8C4A81"/>
+	<stop  offset="0.5718" style="stop-color:#C27388"/>
+	<stop  offset="0.7311" style="stop-color:#F0968E"/>
+</linearGradient>
+<path class="st0" d="M81.9,245c42.6-25.3,72.2-17.5,130.7-29.8c124.6-26.1,134-91.3,262.5-152.5c28.2-13.4,216.8-103.2,308.1-40.9
+	c62.7,42.8,69.8,150.7,14.5,193.3c-68.4,52.7-197-21.5-260.4,32.4c-54.3,46.3,12.8,124.3-39.4,162.7
+	c-50.2,36.9-126.2-24.8-302.9-19.6c-111.2,3.3-159,30.1-183.6,6C-19.6,366.3,15.7,284.3,81.9,245z"/>
+</svg>

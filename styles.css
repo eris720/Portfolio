@@ -1,0 +1,246 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: rgb(30, 29, 29);
+  background-color: #8d5d96;
+  overflow-x: hidden;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #f0968e;
+}
+.navbar {
+  padding-top: 3rem;
+  margin-right: 2vw;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 2vw;
+  font-size: x-large;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #ca7d76;
+  border-radius: 50%;
+  position: absolute;
+  right: 26%;
+  top: 11%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.navbar a:hover {
+  color: #ca7d76;
+}
+.navbar a:nth-child(1):hover ~ .dot {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.navbar a:nth-child(2):hover ~ .dot {
+  transform: translateX(130px);
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.navbar a:nth-child(3):hover ~ .dot {
+  transform: translateX(290px);
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.welcome {
+  background: linear-gradient(
+    -45deg,
+    #85cdea99,
+    #f0968e99,
+    #cc657699,
+    #773a7e99
+  );
+  background-size: 400% 400%;
+  padding: 7rem 8vw;
+  margin: 5rem 7vw 4rem;
+  animation: gradient 4s ease infinite;
+  border: 5px solid transparent;
+  border-radius: 25px;
+  line-height: 1;
+}
+.welcome h1,
+.welcome p {
+  animation: shadeUp 2s;
+}
+h1 {
+  font-size: 6vw;
+}
+h2 {
+  font-size: 3.5vw;
+  font-weight: 400;
+}
+p {
+  font-weight: 200;
+  font-size: 1.9vw;
+}
+
+.blob {
+  position: absolute;
+  top: 45%;
+  right: -8%;
+  width: 70%;
+  z-index: -1;
+}
+.blob1 {
+  position: absolute;
+  top: -20%;
+  left: -15%;
+  width: 60vw;
+  z-index: -10;
+}
+.intro {
+  background-color: #f0968e95;
+  border-radius: 25px;
+  width: 90%;
+  margin: 8rem auto 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+.intro__description {
+  padding-inline: 5vw;
+}
+.card-group {
+  height: auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding-inline: 2rem;
+  padding: 3rem;
+}
+.card {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(
+    -45deg,
+    #85cdea98,
+    #f0968e98,
+    #cc657698,
+    #773a7e98
+  );
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.card__title {
+  padding: 2rem;
+}
+.card__text {
+  padding-inline: 2rem;
+  padding-bottom: 4rem;
+}
+.card:first-of-type,
+.card:last-of-type {
+  background: #85cdea95;
+}
+.icons {
+  background-color: #85cdea;
+  display: flex;
+  width: fit-content;
+  column-gap: 20px;
+  place-content: center;
+  padding: 1.1rem;
+  border: 20px solid #85cdea;
+  border-radius: 20%/50%;
+}
+.icon {
+  text-decoration: none;
+}
+.fa-github {
+  color: black;
+}
+.fa-behance {
+  color: #053eff;
+}
+.fa-linkedin-in {
+  color: #0072b1;
+}
+.icon:hover i {
+  font-size: 5rem;
+  animation: shake 0.25s;
+}
+
+footer {
+  display: flex;
+  height: 30vh;
+  flex-direction: column;
+  place-items: center;
+  padding-bottom: 7rem;
+  margin-top: 7rem;
+  background-color: #f0968e95;
+}
+.blob-footer {
+  position: relative;
+  z-index: -1;
+}
+.blob-footer svg {
+  position: absolute;
+  bottom: 2%;
+}
+.blob3 {
+  position: relative;
+}
+.blob3 svg {
+  transform: translate(180deg);
+  position: absolute;
+  bottom: 0;
+  z-index: -3;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 800px);
+  grid-auto-rows: 600px;
+  justify-content: center;
+  margin: 8rem auto 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.grid_photo {
+  background-size: cover;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+@keyframes gradient {
+  0% {
+    background-position: 10% 50%;
+  }
+  50% {
+    background-position: 80% 50%;
+  }
+  100% {
+    background-position: 10% 50%;
+  }
+}
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+}
+@keyframes shadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
