@@ -121,13 +121,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: linear-gradient(
-    -45deg,
-    #85cdea98,
-    #f0968e98,
-    #cc657698,
-    #773a7e98
-  );
+  background: #773a7e98;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 .card__title {
@@ -139,7 +133,7 @@ p {
 }
 .card:first-of-type,
 .card:last-of-type {
-  background: #85cdea95;
+  background: #cc657698;
 }
 .icons {
   background-color: #85cdea;
