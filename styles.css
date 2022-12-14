@@ -227,7 +227,7 @@ footer {
     transform: translateY(0);
   }
 }
-@media (max-width: 860px) {
+@media screen and (max-width: 860px) {
   .grid {
     grid-template-columns: repeat(auto-fit, 400px);
     grid-auto-rows: 300px;
