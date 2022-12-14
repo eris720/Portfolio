@@ -173,7 +173,6 @@ footer {
   position: relative;
 }
 .blob3 svg {
-  transform: translate(180deg);
   position: absolute;
   bottom: 0;
   z-index: -3;
@@ -265,11 +264,5 @@ footer {
   }
   h2 {
     font-size: 7vw;
-  }
-  body {
-    overflow-x: hidden;
-  }
-  html {
-    overflow-x: hidden;
   }
 }
