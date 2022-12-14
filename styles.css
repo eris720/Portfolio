@@ -71,7 +71,7 @@ p {
 
 .blob {
   position: absolute;
-  top: 45%;
+  top: 8%;
   right: -8%;
   width: 70%;
   z-index: -1;
@@ -79,9 +79,9 @@ p {
 }
 .blob1 {
   position: absolute;
-  top: -20%;
+  top: -1%;
   left: -15%;
-  width: 60vw;
+  width: 74vw;
   z-index: -10;
 }
 .intro {
