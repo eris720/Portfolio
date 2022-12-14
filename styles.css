@@ -227,3 +227,31 @@ footer {
     transform: translateY(0);
   }
 }
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, 400px);
+    grid-auto-rows: 300px;
+  }
+  .card-group {
+    grid-template-columns: 40vw;
+  }
+  .navbar {
+    flex-direction: column;
+    align-content: flex-start;
+    font-size: medium;
+  }
+  nav a {
+    align-self: flex-end;
+    padding-bottom: 0;
+  }
+  .welcome {
+    padding: 4rem 8vw;
+    margin-top: 3rem;
+  }
+  .intro {
+    margin-top: 5rem;
+  }
+  footer {
+    padding-bottom: 0;
+  }
+}
