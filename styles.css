@@ -261,6 +261,9 @@ footer {
   h2 {
     font-size: 7vw;
   }
+  body {
+    overflow-x: hidden;
+  }
   html {
     overflow-x: hidden;
   }
