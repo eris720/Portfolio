@@ -20,17 +20,6 @@ a {
   column-gap: 2vw;
   font-size: x-large;
 }
-.dot {
-  width: 6px;
-  height: 6px;
-  background: #ca7d76;
-  border-radius: 50%;
-  position: absolute;
-  right: 26%;
-  top: 11%;
-  opacity: 0;
-  transition: all 0.2s ease-in-out;
-}
 .navbar a:hover {
   color: #ca7d76;
 }
