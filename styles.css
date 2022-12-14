@@ -75,6 +75,7 @@ p {
   right: -8%;
   width: 70%;
   z-index: -1;
+  overflow-x: hidden;
 }
 .blob1 {
   position: absolute;
